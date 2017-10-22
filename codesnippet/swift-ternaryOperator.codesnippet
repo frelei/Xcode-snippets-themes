@@ -3,32 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-tableViewDataSource</string>
+	<string>swift-ternaryOperator</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extension &lt;#Controller#&gt;: UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
-        return 0
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#Identifier#&gt;, for: indexPath)
-        return cell
-    }
-    
-}</string>
+	<string>&lt;# condition #&gt; ? &lt;# true-statement#&gt; : &lt;# false-statement#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5D744CB7-61A9-40BA-A0EB-3F13D20F6601</string>
+	<string>C1534ACC-C81A-466B-9DA7-68373B4F31F1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TableViewDataSource</string>
+	<string>TernaryOperator</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
